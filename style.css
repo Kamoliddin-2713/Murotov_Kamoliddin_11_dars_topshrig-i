@@ -1,0 +1,82 @@
+body {
+    width: 85%px;
+    height: 90%;
+   background-image: linear-gradient(to right bottom, rgb(189, 250, 235), rgb(76, 137, 218));
+   background-repeat: no-repeat;
+}
+.nav_bar li{
+    /* position: relative;
+    left: 100px; */
+    display: inline;
+    list-style-type: none;
+}
+.material-icons{
+    position: relative;
+    top: 5px;
+    width: 30px;
+    padding-left: 10px;
+}
+.icon_comp{
+    position: relative;
+    left: 90px;
+}
+a{
+    text-decoration: none;
+    color: #222
+}
+.menu {
+    position: relative;
+    left: 350px;
+    margin: 20px;
+    color: #999;
+}
+.menu:hover{
+    color: #222;
+    border-bottom:2px solid #222;
+    padding-bottom: 10px;
+}
+.option {
+    position: relative;
+    left: 600px;
+    background-color: rgba(216, 191, 216, 0.349);
+    width: 100px;
+    height: 25px;
+    text-align: center;
+
+}
+.moon a {
+    position: relative;
+    left: 620px;
+    height: 25PX;
+    border: 1px solid #222;
+    background-color: #222;
+    color: yellow;
+}
+.photo {
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+    
+}
+.main {
+    position: relative;
+    top: 180px;
+    left: 145px;
+}
+.main h1 {
+    width: 300px;
+}
+.main p {
+    width: 200px;
+    opacity: 0.5;
+    font-size: 20px;
+}
+.main button {
+    position: relative;
+    top: 40px;
+    width: 200px;
+    height: 40px;
+    background-color: #222;
+    color: aliceblue;
+    border-radius: 10px;
+}
